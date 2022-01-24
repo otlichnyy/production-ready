@@ -7,9 +7,6 @@ const SvgSunIcon = (props: SVGProps<SVGSVGElement>) => (
     width="1em"
     height="1em"
     viewBox="0 0 330 330"
-    style={{
-      enableBackground: "new 0 0 330 330",
-    }}
     xmlSpace="preserve"
     {...props}
   >
