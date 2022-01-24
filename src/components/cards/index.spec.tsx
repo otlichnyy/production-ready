@@ -1,5 +1,5 @@
 import React from "react";
-import { render } from "@testing-library/react";
+import { render } from "@test";
 import data from "@public/meta.json";
 import { Cards } from "./index";
 

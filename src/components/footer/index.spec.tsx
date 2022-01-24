@@ -1,5 +1,5 @@
 import React from "react";
-import { render } from "@testing-library/react";
+import { render } from "@test";
 import { Footer } from "./index";
 
 describe("Footer component testing with testing-library", () => {
