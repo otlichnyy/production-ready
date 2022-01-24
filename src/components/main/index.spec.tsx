@@ -13,7 +13,7 @@ describe("Main component testing with testing-library", () => {
   it("renders texts successfuly", () => {
     const { getByText } = render(<Main />);
 
-    getByText("superplate");
+    getByText("superplate-revived");
     getByText("The frontend boilerplate with superpowers!");
   });
 
