@@ -1,6 +1,12 @@
 import "isomorphic-unfetch";
 import "@testing-library/jest-dom";
 import dotenv from "dotenv";
+import nock from "nock";
+
+afterAll(() => {
+  nock.cleanAll();
+  nock.restore();
+});
 
 dotenv.config({ path: ".env.test" });
 window.matchMedia = jest.fn().mockImplementation((query) => {
