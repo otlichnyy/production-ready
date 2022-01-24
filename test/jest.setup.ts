@@ -1,3 +1,4 @@
+import "isomorphic-unfetch";
 import "@testing-library/jest-dom";
 
 window.matchMedia = jest.fn().mockImplementation((query) => {
