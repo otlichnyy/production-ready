@@ -1,11 +1,11 @@
 import React from "react";
-import { render } from "@test";
+import { render, screen } from "@test";
 
 import { Header } from "./index";
 
 describe("Header component testing with testing-library", () => {
-  const { getByTestId } = render(<Header />);
-  const container = getByTestId("container");
+  render(<Header />);
+  const container = screen.getByTestId("container");
 
   it("renders without crashing", () => {
     expect(container.parentElement).toBeTruthy();
