@@ -8,6 +8,7 @@
     "lint": "next lint --dir pages --dir src",
     "build-types": "tsc --noEmit --pretty",
     "test": "jest -c test/jest.config.js --detectOpenHandles",
+    "test:watch": "jest -c test/jest.config.js --watch",
     "svgr": "npx @svgr/cli -d src/components/icons --ignore-existing --icon --typescript public/icons",
     "analyze": "cross-env ANALYZE=true next build",
     "analyze:server": "cross-env BUNDLE_ANALYZE=server next build",
