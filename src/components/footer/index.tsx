@@ -30,6 +30,7 @@ export const Footer: React.FC = () => {
           <a
             href="https://github.com/pankod"
             target="_blank"
+            rel="noreferrer"
             data-testid="pankod-logo"
             style={iconStyle}
           >
@@ -38,6 +39,7 @@ export const Footer: React.FC = () => {
           <a
             href="https://twitter.com/PankodDev"
             target="_blank"
+            rel="noreferrer"
             style={iconStyle}
           >
             <TwitterOutlined data-test="icon" />
@@ -45,6 +47,7 @@ export const Footer: React.FC = () => {
           <a
             href="https://www.youtube.com/channel/UCBGOeQkv1XW3ptryLWlQbAQ"
             target="_blank"
+            rel="noreferrer"
             style={iconStyle}
           >
             <YoutubeOutlined data-test="icon" />
@@ -52,6 +55,7 @@ export const Footer: React.FC = () => {
           <a
             href="https://www.linkedin.com/company/pankod-yazilim-ve-danismanlik/"
             target="_blank"
+            rel="noreferrer"
             style={iconStyle}
           >
             <LinkedinOutlined data-test="icon" />
