@@ -1,8 +1,15 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Before Getting Started
+First, add commitzen globally if you don't have using
+```bash
+npm i commitzen -g
+```
+always use `git cz` or `npx cz` when to commit on staged items
+
 ## Getting Started
 
-First, run the development server:
+Run the development server:
 
 ```bash
 npm run dev
