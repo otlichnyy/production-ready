@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unsafe-argument */
 import React, { useEffect, useState } from "react";
 
 const API_URL = "https://api.jsonbin.io/b/61cabebfc277c467cb3770c0/2";
